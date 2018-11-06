@@ -3,7 +3,7 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sofa="http://sofastack.io/schema/sofaboot"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://sofastack.io/schema/sofaboot http://sofastack.io/schema/sofaboot.xsd">
 
-    <sofa:reference id="sampleJvmService" interface="com.alipay.sofa.isle.sample.SampleJvmService">
+    <sofa:reference id="sampleJvmService" interface="com.example.SampleJvmService">
         <sofa:binding.jvm/>
     </sofa:reference>
 </beans>
