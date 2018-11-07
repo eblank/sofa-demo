@@ -1,0 +1,24 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /
+  tomcat:
+    uri-encoding: UTF-8
+
+debug: false
+
+logging:
+  level:
+    org.springframework.security: debug
+    com.example.module.auth.dao: debug
+    org.springframework.jdbc: debug
+    com.example.security: debug
+  path: ./logs
+
+spring:
+  aop:
+    proxy-target-class: true
+  profiles:
+    active: test
+  application:
+    name: SOFABoot Demo

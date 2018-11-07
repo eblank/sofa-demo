@@ -1,5 +1,4 @@
 /target/
-!.mvn/wrapper/maven-wrapper.jar
 
 ### STS ###
 .apt_generated
@@ -23,3 +22,13 @@
 /dist/
 /nbdist/
 /.nb-gradle/
+
+service-consumer/src/test/
+*/.mvn
+*/mvnw
+*/mvnw.cmd
+service-facade/src/main/resources/
+service-facade/src/test/
+service-provider/src/test/
+*/target
+*/logs
